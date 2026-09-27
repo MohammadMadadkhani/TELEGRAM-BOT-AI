@@ -16,8 +16,8 @@ import time
 from typing import Optional
 
 # ⚙️ تنظیمات - از Environment Variables بخوان
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "YOUR_TOKEN_HERE")
-TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "YOUR_CHAT_ID_HERE")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN", "8796078625:AAHINxvlD4RuGAwxiN6kf2cmZAtQ_4S4nvQ")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "96515368")
 
 # اگر environment variable نباشد، خطا دهد
 if TELEGRAM_TOKEN == "YOUR_TOKEN_HERE" or TELEGRAM_CHAT_ID == "YOUR_CHAT_ID_HERE":
